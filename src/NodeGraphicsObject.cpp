@@ -391,7 +391,7 @@ mouseDoubleClickEvent(QGraphicsSceneMouseEvent* event)
 {
   QGraphicsItem::mouseDoubleClickEvent(event);
 
-  _scene.nodeDoubleClicked(node());
+  _scene.nodeDoubleClicked(node(), event->screenPos());
 }
 
 void

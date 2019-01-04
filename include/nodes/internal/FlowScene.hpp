@@ -108,7 +108,7 @@ Q_SIGNALS:
 
   void nodeMoved(Node& n, const QPointF& newLocation);
 
-  void nodeDoubleClicked(Node& n);
+  void nodeDoubleClicked(Node& n, QPoint screenPos);
 
   void connectionHovered(Connection& c, QPoint screenPos);
 
