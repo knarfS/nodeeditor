@@ -1,3 +1,7 @@
 *.py
 *.pyc
 CMakeLists.txt.user
+build/
+
+.kdev4/
+nodeeditor.kdev4
